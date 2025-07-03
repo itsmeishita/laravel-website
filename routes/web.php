@@ -43,3 +43,9 @@ Route::get('/digital-marketing', function () {
 Route::get('/seo-writing', function () {
     return view('seo-writing');
 });
+Route::get('/ramadan-2025', function () {
+    return view('ramadan-2025');
+});
+Route::get('/ramadan-api-documentation', function () {
+    return view('ramadan-api-documentation');
+});
