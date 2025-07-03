@@ -25,3 +25,21 @@ Route::get('/services', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/socialmedia', function () {
+    return view('socialmedia');
+});
+Route::get('/website-designing', function () {
+    return view('website-designing');
+});
+Route::get('/website-development', function () {
+    return view('website-development');
+});
+Route::get('/mobile-application', function () {
+    return view('mobile-application');
+});
+Route::get('/digital-marketing', function () {
+    return view('digital-marketing');
+});
+Route::get('/seo-writing', function () {
+    return view('seo-writing');
+});

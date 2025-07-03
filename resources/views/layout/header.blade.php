@@ -122,7 +122,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <!-- <li class="dropdown">
                         <a href="#">Pages</a>
                         <ul>
                             <li><a href="about.html">About</a></li>
@@ -136,7 +136,7 @@
                             <li><a href="login.html">Login</a></li>
                             <li><a href="404.html">404 error</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li class="dropdown">
                         <a href="#">Services</a>
                         <ul>
@@ -167,7 +167,7 @@
                             <li><a href="portfolio-details.html">Portfolio details</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <!-- <li class="dropdown">
                         <a href="#">Shop</a>
                         <ul class="sub-menu">
                             <li class="dropdown">
@@ -182,9 +182,9 @@
                             <li><a href="product-details.html">Product details</a></li>
                             <li><a href="cart.html">Cart</a></li>
                             <li><a href="checkout.html">Checkout</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
+                        </ul> -->
+                    <!-- </li> -->
+                    <!-- <li class="dropdown">
                         <a href="#">Blog</a>
                         <ul class="sub-menu">
                             <li class="dropdown">
@@ -211,9 +211,9 @@
                                     <li><a href="blog-details-left.html">Left sidebar</a></li>
                                     <li><a href="blog-details-right.html">Right sidebar</a></li>
                                 </ul>
-                            </li>
-                        </ul>
-                    </li>
+                            </li> -->
+                        <!-- </ul>
+                    </li> -->
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div><!-- /.main-menu__nav -->
