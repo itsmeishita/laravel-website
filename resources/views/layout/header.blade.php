@@ -52,33 +52,31 @@
                         </ul>
                     </li> -->
                     <li class="dropdown">
-                        <a href="#">Services</a>
+                        <a href="/services">Services</a>
                         <ul>
                             <li><a href="services.html">Services</a></li>
                             <!-- <li><a href="services-carousel.html">Services carousel 01</a></li> -->
                             <!-- <li><a href="services-carousel-2.html">Services carousel 02</a></li> -->
-                            <li><a href="website-designing.html">Website Designing</a></li>
-                            <li><a href="website-development.html">Website Development</a></li>
-                            <li><a href="mobile-application.html">Mobile Application</a></li>
-                            <li><a href="digital-marketing.html">Digital Marketing</a></li>
-                            <li><a href="social-marketing.html">Social Marketing</a></li>
-                            <li><a href="seo-content.html">SEO & Content Writing</a></li>
+                            <li><a href="/website-designing">Website Designing</a></li>
+                            <li><a href="/website-development">Website Development</a></li>
+                            <li><a href="/mobile-application">Mobile Application</a></li>
+                            <li><a href="/digital-marketing">Digital Marketing</a></li>
+                            <li><a href="/social-media">Social Marketing</a></li>
+                            <li><a href="/seo-writing">SEO & Content Writing</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#">Portfolio</a>
+                        <a href="#">Tools</a>
                         <ul>
-                            <li class="dropdown">
-                                <a href="#">Portfolio Grid</a>
+                            <li>
+                                <a href="/ramadan-2025">Ramadan 2025</a>
                                 <!-- <ul class="sub-menu">
                                     <li><a href="portfolio-two-col.html">2 Columns</a></li>
                                     <li><a href="portfolio.html">3 Columns</a></li>
                                     <li><a href="portfolio-four-col.html">4 Columns</a></li>
                                 </ul> -->
                             </li>
-                            <!-- <li><a href="portfolio-carousel.html">Portfolio carousel</a></li>
-                            <li><a href="portfolio-masonry.html">Portfolio masonry</a></li>
-                            <li><a href="portfolio-details.html">Portfolio details</a></li> -->
+                            <li><a href="/ramadan-api-documentation">Ramadan API documentation</a></li>
                         </ul>
                     </li>
                     <!-- <li class="dropdown">
@@ -128,7 +126,8 @@
                             </li> -->
                     <!-- </ul>
                     </li> -->
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about">About</a></li>
                 </ul>
             </div><!-- /.main-menu__nav -->
             <div class="main-menu__right">
