@@ -45,14 +45,14 @@
                 <div class="contact__box">
                     <div class="contact__box__icon"><span class="icon-mailbox"></span></div>
                     <h5 class="contact__box__title">Write email</h5>
-                    <p class="contact__box__text"><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                    <p class="contact__box__text"><a href="mailto:info@chikuweb.com">info@chikuweb.com</a></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="contact__box contact__box-two">
                     <div class="contact__box__icon"><span class="icon-maps-and-flags"></span></div>
                     <h5 class="contact__box__title">Visit office</h5>
-                    <p class="contact__box__text">24 Valentin, Street Road New York</p>
+                    <p class="contact__box__text"> Nai Bazar, Bhadohi 221409, UP, India</p>
                 </div>
             </div>
         </div>

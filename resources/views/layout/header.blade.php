@@ -4,22 +4,22 @@
             <ul class="list-unstyled topbar__list">
                 <li>
                     <span class="fas fa-envelope"></span>
-                    <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                    <a href="mailto:info@chikuweb.com">info@chikuweb.com</a>
                 </li>
                 <li>
                     <span class="fas fa-map-marker"></span>
-                    88 Broklyn Golden Street. New York
+                    Nai Bazar, Bhadohi 221409, UP, India
                 </li>
             </ul><!-- /.icon-box -->
             <ul class="list-unstyled topbar__menu">
-                <li><a href="faq.html">Help</a></li>
-                <li><a href="about.html">Support</a></li>
+                <!-- <li><a href="faq.html">Help</a></li> -->
+                <!-- <li><a href="about.html">Support</a></li> -->
                 <li><a href="contact.html">Contact</a></li>
             </ul><!-- /.list-menu -->
             <div class="topbar__social">
                 <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+                <!-- <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a> -->
                 <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
             </div><!-- /.social-links -->
         </div>
@@ -55,8 +55,8 @@
                         <a href="#">Services</a>
                         <ul>
                             <li><a href="services.html">Services</a></li>
-                            <li><a href="services-carousel.html">Services carousel 01</a></li>
-                            <li><a href="services-carousel-2.html">Services carousel 02</a></li>
+                            <!-- <li><a href="services-carousel.html">Services carousel 01</a></li> -->
+                            <!-- <li><a href="services-carousel-2.html">Services carousel 02</a></li> -->
                             <li><a href="website-designing.html">Website Designing</a></li>
                             <li><a href="website-development.html">Website Development</a></li>
                             <li><a href="mobile-application.html">Mobile Application</a></li>
@@ -70,15 +70,15 @@
                         <ul>
                             <li class="dropdown">
                                 <a href="#">Portfolio Grid</a>
-                                <ul class="sub-menu">
+                                <!-- <ul class="sub-menu">
                                     <li><a href="portfolio-two-col.html">2 Columns</a></li>
                                     <li><a href="portfolio.html">3 Columns</a></li>
                                     <li><a href="portfolio-four-col.html">4 Columns</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
-                            <li><a href="portfolio-carousel.html">Portfolio carousel</a></li>
+                            <!-- <li><a href="portfolio-carousel.html">Portfolio carousel</a></li>
                             <li><a href="portfolio-masonry.html">Portfolio masonry</a></li>
-                            <li><a href="portfolio-details.html">Portfolio details</a></li>
+                            <li><a href="portfolio-details.html">Portfolio details</a></li> -->
                         </ul>
                     </li>
                     <!-- <li class="dropdown">
@@ -126,7 +126,7 @@
                                     <li><a href="blog-details-right.html">Right sidebar</a></li>
                                 </ul>
                             </li> -->
-                        <!-- </ul>
+                    <!-- </ul>
                     </li> -->
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -135,17 +135,17 @@
                 <a href="#" class="main-menu__toggler mobile-nav__toggler">
                     <i class="fa fa-bars"></i>
                 </a><!-- /.mobile menu btn -->
-                <a href="tel:+9236809850" class="main-menu__phone">
+                <a href="tel:+916388602227" class="main-menu__phone">
                     <i class="icon-telephone"></i>
-                    +92 (3680) - 9850
+                    +91-(6388)602-227
                 </a><!-- /.phone-number -->
-                <a href="#" class="main-menu__search search-toggler">
+                <!-- <a href="#" class="main-menu__search search-toggler">
                     <i class="icon-magnifying-glass"></i>
                 </a><!-- /.search btn -->
-                <a href="cart.html" class="main-menu__cart cart-toggler">
+                <!-- <a href="cart.html" class="main-menu__cart cart-toggler">
                     <i class="icon-shopping-cart"></i>
                     <span class="main-menu__cart__count">0</span>
-                </a><!-- /.cart btn -->
+                </a>/.cart btn -->
             </div><!-- /.main-menu__right -->
         </div><!-- /.container -->
     </nav>
