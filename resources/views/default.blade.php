@@ -64,7 +64,7 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fas fa-envelope"></i>
-                    <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                    <a href="mailto:info@company.com">needhelp@company.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
