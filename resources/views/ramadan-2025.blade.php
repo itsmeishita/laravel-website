@@ -1,7 +1,7 @@
 @extends('default')
- @section('title','ramadan-api-documentation')
- 
- @section('content')
+@section('title','ramadan-api-documentation')
+
+@section('content')
 
 <div class="stricky-header stricked-menu main-menu">
     <div class="sticky-header__content"></div>
@@ -17,26 +17,29 @@
     <!-- /.page-header__shape1 -->
     <div
         class="page-header__shape3 wow slideInRight"
-        data-wow-delay="300ms"
-    ></div>
+        data-wow-delay="300ms"></div>
     <!-- /.page-header__shape3 -->
     <div class="container">
         <ul class="page-header__breadcrumb list-unstyled">
             <li><a href="index.html">Home</a></li>
-            <li><span>Services</span></li>
+            <li><span>Ramadan 2025</span></li>
         </ul>
         <!-- /.page-breadcrumb list-unstyled -->
-        <h2 class="page-header__title">Services</h2>
+        <h2 class="page-header__title">Ramadan 2025</h2>
         <!-- /.page-title -->
     </div>
     <!-- /.container -->
 </section>
 <!-- /.page-header -->
+<section>
+    <div class="container">
+        <h3 class="page-header__title" style="color: #333; text-align: center;">Time Table</h3>
+    </div>
+</section>
 <!-- Service Start -->
 <section
     class="service-two service-two-padding"
-    style="background-image: url(assets/images/shapes/service-bg-4.jpg)"
->
+    style="background-image: url(assets/images/shapes/service-bg-4.jpg)">
     <div class="container">
         <div
             class="nisoz-owl__dots nisoz-owl__carousel owl-with-shadow owl-theme owl-carousel"
@@ -64,8 +67,7 @@
                     "items": 4
                 }
             }
-            }'
-        >
+            }'>
             <div class="item">
                 <div class="service-one__item">
                     <div class="service-one__item__wrapper">
@@ -73,8 +75,7 @@
                             class="service-one__item__hover"
                             style="
                                 background-image: url(assets/images/shapes/service-1-hover-shape.png);
-                            "
-                        ></div>
+                            "></div>
                         <div class="service-one__item__number">Service</div>
                         <!-- /.service-number -->
                         <div class="clearfix"></div>
@@ -83,9 +84,7 @@
                         </div>
                         <!-- /.service-icon -->
                         <h3 class="service-one__item__title">
-                            <a href="website-designing.html"
-                                >Website Designing</a
-                            >
+                            <a href="website-designing.html">Website Designing</a>
                         </h3>
                         <!-- /.service-title -->
                         <p class="service-one__item__text">
@@ -104,8 +103,7 @@
                             class="service-one__item__hover"
                             style="
                                 background-image: url(assets/images/shapes/service-1-hover-shape.png);
-                            "
-                        ></div>
+                            "></div>
                         <div class="service-one__item__number">Service</div>
                         <!-- /.service-number -->
                         <div class="clearfix"></div>
@@ -114,9 +112,7 @@
                         </div>
                         <!-- /.service-icon -->
                         <h3 class="service-one__item__title">
-                            <a href="website-development.html"
-                                >Website Development</a
-                            >
+                            <a href="website-development.html">Website Development</a>
                         </h3>
                         <!-- /.service-title -->
                         <p class="service-one__item__text">
@@ -135,8 +131,7 @@
                             class="service-one__item__hover"
                             style="
                                 background-image: url(assets/images/shapes/service-1-hover-shape.png);
-                            "
-                        ></div>
+                            "></div>
                         <div class="service-one__item__number">Service</div>
                         <!-- /.service-number -->
                         <div class="clearfix"></div>
@@ -145,9 +140,7 @@
                         </div>
                         <!-- /.service-icon -->
                         <h3 class="service-one__item__title">
-                            <a href="mobile-application.html"
-                                >Mobile Application</a
-                            >
+                            <a href="mobile-application.html">Mobile Application</a>
                         </h3>
                         <!-- /.service-title -->
                         <p class="service-one__item__text">
@@ -166,8 +159,7 @@
                             class="service-one__item__hover"
                             style="
                                 background-image: url(assets/images/shapes/service-1-hover-shape.png);
-                            "
-                        ></div>
+                            "></div>
                         <div class="service-one__item__number">Service</div>
                         <!-- /.service-number -->
                         <div class="clearfix"></div>
@@ -176,9 +168,7 @@
                         </div>
                         <!-- /.service-icon -->
                         <h3 class="service-one__item__title">
-                            <a href="digital-marketing.html"
-                                >Digital Marketing</a
-                            >
+                            <a href="digital-marketing.html">Digital Marketing</a>
                         </h3>
                         <!-- /.service-title -->
                         <p class="service-one__item__text">
@@ -197,8 +187,7 @@
                             class="service-one__item__hover"
                             style="
                                 background-image: url(assets/images/shapes/service-1-hover-shape.png);
-                            "
-                        ></div>
+                            "></div>
                         <div class="service-one__item__number">Service</div>
                         <!-- /.service-number -->
                         <div class="clearfix"></div>
@@ -207,9 +196,7 @@
                         </div>
                         <!-- /.service-icon -->
                         <h3 class="service-one__item__title">
-                            <a href="website-designing.html"
-                                >Website Designing</a
-                            >
+                            <a href="website-designing.html">Website Designing</a>
                         </h3>
                         <!-- /.service-title -->
                         <p class="service-one__item__text">
@@ -228,8 +215,7 @@
                             class="service-one__item__hover"
                             style="
                                 background-image: url(assets/images/shapes/service-1-hover-shape.png);
-                            "
-                        ></div>
+                            "></div>
                         <div class="service-one__item__number">Service</div>
                         <!-- /.service-number -->
                         <div class="clearfix"></div>
@@ -238,9 +224,7 @@
                         </div>
                         <!-- /.service-icon -->
                         <h3 class="service-one__item__title">
-                            <a href="website-development.html"
-                                >Website Development</a
-                            >
+                            <a href="website-development.html">Website Development</a>
                         </h3>
                         <!-- /.service-title -->
                         <p class="service-one__item__text">
@@ -259,8 +243,7 @@
                             class="service-one__item__hover"
                             style="
                                 background-image: url(assets/images/shapes/service-1-hover-shape.png);
-                            "
-                        ></div>
+                            "></div>
                         <div class="service-one__item__number">Service</div>
                         <!-- /.service-number -->
                         <div class="clearfix"></div>
@@ -269,9 +252,7 @@
                         </div>
                         <!-- /.service-icon -->
                         <h3 class="service-one__item__title">
-                            <a href="mobile-application.html"
-                                >Mobile Application</a
-                            >
+                            <a href="mobile-application.html">Mobile Application</a>
                         </h3>
                         <!-- /.service-title -->
                         <p class="service-one__item__text">
@@ -290,8 +271,7 @@
                             class="service-one__item__hover"
                             style="
                                 background-image: url(assets/images/shapes/service-1-hover-shape.png);
-                            "
-                        ></div>
+                            "></div>
                         <div class="service-one__item__number">Service</div>
                         <!-- /.service-number -->
                         <div class="clearfix"></div>
@@ -300,9 +280,7 @@
                         </div>
                         <!-- /.service-icon -->
                         <h3 class="service-one__item__title">
-                            <a href="digital-marketing.html"
-                                >Digital Marketing</a
-                            >
+                            <a href="digital-marketing.html">Digital Marketing</a>
                         </h3>
                         <!-- /.service-title -->
                         <p class="service-one__item__text">
