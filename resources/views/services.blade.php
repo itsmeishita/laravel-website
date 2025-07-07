@@ -325,21 +325,21 @@
                         <div class="feature-one__item">
                             <div class="feature-one__item__icon"><span class="icon-tick"></span></div>
                             <h3 class="feature-one__item__title">We think differently</h3>
-                            <p class="feature-one__item__text">Lorem Ipsum nibh vel aliquet. Aenean sollic tudin, lorem is simply free text.</p>
+                            <p class="feature-one__item__text"></p>
                         </div><!-- /.feature-box -->
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                         <div class="feature-one__item">
                             <div class="feature-one__item__icon"><span class="icon-tick"></span></div>
                             <h3 class="feature-one__item__title">High quality projects</h3>
-                            <p class="feature-one__item__text">Lorem Ipsum nibh vel aliquet. Aenean sollic tudin, lorem is simply free text.</p>
+                            <p class="feature-one__item__text"></p>
                         </div><!-- /.feature-box -->
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                         <div class="feature-one__item">
                             <div class="feature-one__item__icon"><span class="icon-tick"></span></div>
                             <h3 class="feature-one__item__title">Expert team members</h3>
-                            <p class="feature-one__item__text">Lorem Ipsum nibh vel aliquet. Aenean sollic tudin, lorem is simply free text.</p>
+                            <p class="feature-one__item__text"></p>
                         </div><!-- /.feature-box -->
                     </div>
                 </div>
@@ -375,7 +375,7 @@
                             <h3 class="service-one__item__title">
                                 <a href="website-designing.html">Website Designing</a>
                             </h3><!-- /.service-title -->
-                            <p class="service-one__item__text">Sed quia magni doles eos qui ration volupta tem sequi.</p><!-- /.service-content -->
+                            <p class="service-one__item__text"></p><!-- /.service-content -->
                         </div>
                     </div><!-- /.service-card-one -->
                 </div>
@@ -391,7 +391,7 @@
                             <h3 class="service-one__item__title">
                                 <a href="website-development.html">Website Development</a>
                             </h3><!-- /.service-title -->
-                            <p class="service-one__item__text">Sed quia magni doles eos qui ration volupta tem sequi.</p><!-- /.service-content -->
+                            <p class="service-one__item__text"></p><!-- /.service-content -->
                         </div>
                     </div><!-- /.service-card-one -->
                 </div>
@@ -407,7 +407,7 @@
                             <h3 class="service-one__item__title">
                                 <a href="mobile-application.html">Mobile Application</a>
                             </h3><!-- /.service-title -->
-                            <p class="service-one__item__text">Sed quia magni doles eos qui ration volupta tem sequi.</p><!-- /.service-content -->
+                            <p class="service-one__item__text"></p><!-- /.service-content -->
                         </div>
                     </div><!-- /.service-card-one -->
                 </div>
@@ -423,7 +423,7 @@
                             <h3 class="service-one__item__title">
                                 <a href="digital-marketing.html">Digital Marketing</a>
                             </h3><!-- /.service-title -->
-                            <p class="service-one__item__text">Sed quia magni doles eos qui ration volupta tem sequi.</p><!-- /.service-content -->
+                            <p class="service-one__item__text"></p><!-- /.service-content -->
                         </div>
                     </div><!-- /.service-card-one -->
                 </div>

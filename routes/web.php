@@ -49,3 +49,12 @@ Route::get('/ramadan-2025', function () {
 Route::get('/ramadan-api-documentation', function () {
     return view('ramadan-api-documentation');
 });
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+});
+Route::get('/terms-conditions', function () {
+    return view('terms-conditions');
+});
+Route::get('/domain', function () {
+    return view('domain ');
+});

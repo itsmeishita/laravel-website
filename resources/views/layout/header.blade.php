@@ -79,6 +79,14 @@
                             <li><a href="/ramadan-api-documentation">Ramadan API documentation</a></li>
                         </ul>
                     </li>
+                    <li class="dropdown">
+                        <a href="#">Domain</a>
+                        <ul>
+                            <li>
+                                <a href="/domain">Domain</a>
+                            </li>
+                        </ul>
+                    </li>
                     <!-- <li class="dropdown">
                         <a href="#">Shop</a>
                         <ul class="sub-menu">
@@ -134,9 +142,9 @@
                 <a href="#" class="main-menu__toggler mobile-nav__toggler">
                     <i class="fa fa-bars"></i>
                 </a><!-- /.mobile menu btn -->
-                <a href="tel:+916388602227" class="main-menu__phone">
+                <a href="tel:+919214285988" class="main-menu__phone">
                     <i class="icon-telephone"></i>
-                    +91-(6388)602-227
+                    +91-9214-285-988
                 </a><!-- /.phone-number -->
                 <!-- <a href="#" class="main-menu__search search-toggler">
                     <i class="icon-magnifying-glass"></i>
