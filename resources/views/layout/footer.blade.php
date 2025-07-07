@@ -30,6 +30,8 @@
                         <li><a href="contact.html">Contact</a></li>
                         <!-- <li><a href="pricing.html">Pricing Plans</a></li> -->
                         <li><a href="portfolio.html">Recent Work</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
                     </ul><!-- /.list-unstyled -->
                 </div><!-- /.footer-menu -->
             </div>
@@ -37,7 +39,7 @@
                 <div class="main-footer__about">
                     <p class="main-footer__about__text">Nai Bazar, Bhadohi 221409<br> UP, (India)</p>
                     <ul class="main-footer__about__info">
-                        <li><span class="fas fa-phone-square"></span><a href="tel:+916388602227">+91-(6388)602-227</a></li>
+                        <li><span class="fas fa-phone-square"></span><a href="tel:+919214285988">+91-9214-285-988</a></li>
                         <li><span class="fas fa-envelope"></span><a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
                     </ul>
                 </div><!-- /.footer-about -->

@@ -38,7 +38,7 @@
                 <div class="faq-page__help">
                     <div class="faq-page__help__icon"><span class="icon-phone-call-1"></span></div>
                     <h3 class="faq-page__help__title">Do you still<br> have questions?</h3>
-                    <p class="faq-page__help__text">Call Anytime<a href="tel:+9288009850">+92 (8800) - 9850</a></p>
+                    <p class="faq-page__help__text">Call Anytime<a href="tel:+919214285988">+91-9214-285-988</a></p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
