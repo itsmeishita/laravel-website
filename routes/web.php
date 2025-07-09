@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\DomaininfoController;
+use App\Http\Controllers\CityController;
+use App\Http\Controllers\RamadanController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,9 +19,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/contact', function () {
-    return view('contact');
+Route::prefix('contact')->group(function () {
+    Route::get('/', function () {
+        return view('contact');
+    });
+
+    Route::post('/send', [ContactController::class, 'send'])->name('contact.send');
 });
+
 Route::get('/services', function () {
     return view('services');
 });
@@ -55,6 +63,6 @@ Route::get('/privacy-policy', function () {
 Route::get('/terms-conditions', function () {
     return view('terms-conditions');
 });
-Route::get('/domain', function () {
+Route::get('/domain-details', function () {
     return view('domain ');
 });

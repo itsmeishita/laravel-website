@@ -42,6 +42,7 @@
     <div class="preloader">
         <div class="preloader__image" style="background-image: url(assets/images/loader.png);"></div>
     </div>
+
     <!-- /.preloader -->
     <div class="page-wrapper">
      @include('layout.header')
@@ -56,7 +57,7 @@
         <div class="mobile-nav__content">
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="{{ asset('assets/images/logo-light.png') }}" width="96" height="34" alt="nisoz" /></a>
+                <a href="/" aria-label="logo image"><img src="{{ asset('assets/images/logo-light.png') }}" width="96" height="34" alt="nisoz" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -64,11 +65,11 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fas fa-envelope"></i>
-                    <a href="mailto:info@company.com">needhelp@company.com</a>
+                    <a href="mailto:info@chikuweb.in">info@chikuweb.in</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:+9236809850">+92 (3680) - 9850</a>
+                    <a href="tel:+9236809850">+91 9214-285-988</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__social">

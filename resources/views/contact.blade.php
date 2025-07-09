@@ -17,7 +17,7 @@
     <div class="page-header__shape3 wow slideInRight" data-wow-delay="300ms"></div><!-- /.page-header__shape3 -->
     <div class="container">
         <ul class="page-header__breadcrumb list-unstyled">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><span>Contact</span></li>
         </ul><!-- /.page-breadcrumb list-unstyled -->
         <h2 class="page-header__title">Contact</h2><!-- /.page-title -->
@@ -71,11 +71,17 @@
             <h2 class="section-title__title">feel free to get in<br> touch with me</h2>
         </div><!-- section-title -->
         <div class="contact-one__form-box  text-center">
-            <form action="https://bracketweb.com/nisoz-html/assets/inc/sendemail.php" class="contact-one__form contact-form-validated" novalidate="novalidate">
+            @if(session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+            @endif
+            <form  method="post" action="{{ route('contact.send') }}" class="contact-one__form contact-form-validated" id="contact-form">
+                @csrf
                 <div class="row">
                     <div class="col-md-6">
                         <div class="contact-one__input-box">
-                            <input type="text" placeholder="Your name" name="name">
+                            <input type="text" placeholder="Your name" name="username">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -83,7 +89,12 @@
                             <input type="email" placeholder="Email address" name="email">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12">
+                        <div class="contact-one__input-box">
+                            <input type="text" placeholder="Subject" name="subject">
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-6">
                         <div class="contact-one__input-box">
                             <input type="text" placeholder="Phone" name="phone">
                         </div>
@@ -97,10 +108,10 @@
                                 <option value="3">Select service 03</option>
                             </select>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-12">
                         <div class="contact-one__input-box text-message-box">
-                            <textarea name="message" placeholder="Write Comment"></textarea>
+                            <textarea name="message" placeholder="Your Message"></textarea>
                         </div>
                         <div class="contact-one__btn-box">
                             <button type="submit" class="nisoz-btn">
@@ -119,5 +130,4 @@
 @endsection
 
 @section('script')
-<script src="{{ asset('assets/vendors/countdown/bootstrap-select.min.js') }}"></script>
 @endsection
