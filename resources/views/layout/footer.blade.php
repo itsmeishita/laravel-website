@@ -1,8 +1,9 @@
+
 <footer class="main-footer">
     <div class="main-footer__bg" style="background-image: url(assets/images/shapes/footer-bg-1.png);"></div>
     <div class="container">
         <div class="main-footer__top wow fadeInUp" data-wow-delay="100ms">
-            <a href="index.html" class="main-footer__logo">
+            <a href="/" class="main-footer__logo">
                 <img src="{{ asset('assets/images/footer-logo.png') }}" alt="nisoz" width="96" height="34">
             </a><!-- /.footer-logo -->
             <div class="main-footer__social">
@@ -40,7 +41,7 @@
                     <p class="main-footer__about__text">Nai Bazar, Bhadohi 221409<br> UP, (India)</p>
                     <ul class="main-footer__about__info">
                         <li><span class="fas fa-phone-square"></span><a href="tel:+919214285988">+91-9214-285-988</a></li>
-                        <li><span class="fas fa-envelope"></span><a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
+                        <li><span class="fas fa-envelope"></span><a href="mailto:info@chikuweb.in">info@chikuweb.in</a></li>
                     </ul>
                 </div><!-- /.footer-about -->
             </div>
@@ -62,3 +63,8 @@
         </div><!-- /.row -->
     </div><!-- /.container -->
 </footer><!-- /.main-footer -->
+<section class="copyright text-center">
+    <div class="container wow fadeInUp" data-wow-delay="500ms">
+        <p class="copyright__text">© Copyright <span class="dynamic-year"></span><!-- /.dynamic-year --> by <a href="/">Chikuweb</a></p>
+    </div><!-- /.container -->
+</section><!-- /.copyright -->

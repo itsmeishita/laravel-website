@@ -13,7 +13,7 @@
     <div class="page-header__shape3 wow slideInRight" data-wow-delay="300ms"></div><!-- /.page-header__shape3 -->
     <div class="container">
         <ul class="page-header__breadcrumb list-unstyled">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><span>tool</span></li>
         </ul><!-- /.page-breadcrumb list-unstyled -->
         <h2 class="page-header__title">ramadan-api-documentation</h2><!-- /.page-title -->

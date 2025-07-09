@@ -13,10 +13,10 @@
     <div class="page-header__shape3 wow slideInRight" data-wow-delay="300ms"></div><!-- /.page-header__shape3 -->
     <div class="container">
         <ul class="page-header__breadcrumb list-unstyled">
-            <li><a href="index.html">Home</a></li>
-            <li><span>Domain information</span></li>
+            <li><a href="/">Home</a></li>
+            <li><span>Domain Details</span></li>
         </ul><!-- /.page-breadcrumb list-unstyled -->
-        <h2 class="page-header__title">Domain information</h2><!-- /.page-title -->
+        <h2 class="page-header__title">Domain Details</h2><!-- /.page-title -->
     </div><!-- /.container -->
 </section><!-- /.page-header -->
 <!--Google Map Start-->

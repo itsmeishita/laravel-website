@@ -21,7 +21,7 @@
     <!-- /.page-header__shape3 -->
     <div class="container">
         <ul class="page-header__breadcrumb list-unstyled">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><span>Ramadan 2025</span></li>
         </ul>
         <!-- /.page-breadcrumb list-unstyled -->

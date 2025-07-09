@@ -13,7 +13,7 @@
     <div class="page-header__shape3 wow slideInRight" data-wow-delay="300ms"></div><!-- /.page-header__shape3 -->
     <div class="container">
         <ul class="page-header__breadcrumb list-unstyled">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><span>Services</span></li>
         </ul><!-- /.page-breadcrumb list-unstyled -->
         <h2 class="page-header__title">Services</h2><!-- /.page-title -->
@@ -21,10 +21,7 @@
 </section><!-- /.page-header -->
 <section>
     <div class="container">
-        <h3 class="page-header__title" style="color: #333; text-align: center;">
-            ChikuWeb
-            – Fresh Solutions,
-            Always</h3>
+        <h3 class="page-header__title mt-5" style="color: #333; text-align: center;">Our Services</h3>
     </div>
     <!-- Service Start -->
     <section class="service-two service-two-padding">

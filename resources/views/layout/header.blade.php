@@ -29,7 +29,7 @@
     <nav class="main-menu">
         <div class="container-fluid">
             <div class="main-menu__logo">
-                <a href="index.html">
+                <a href="/">
                     <img src="{{ asset('assets/images/logo-light.png') }}" width="96" height="34" alt="Ogency">
                 </a>
             </div><!-- /.main-menu__logo -->
@@ -54,7 +54,6 @@
                     <li class="dropdown">
                         <a href="/services">Services</a>
                         <ul>
-                            <li><a href="services.html">Services</a></li>
                             <!-- <li><a href="services-carousel.html">Services carousel 01</a></li> -->
                             <!-- <li><a href="services-carousel-2.html">Services carousel 02</a></li> -->
                             <li><a href="/website-designing">Website Designing</a></li>
@@ -68,6 +67,7 @@
                     <li class="dropdown">
                         <a href="#">Tools</a>
                         <ul>
+                            <li><a href="/domain-details">Domain Details</a></li>
                             <li>
                                 <a href="/ramadan-2025">Ramadan 2025</a>
                                 <!-- <ul class="sub-menu">
@@ -77,14 +77,6 @@
                                 </ul> -->
                             </li>
                             <li><a href="/ramadan-api-documentation">Ramadan API documentation</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">Domain</a>
-                        <ul>
-                            <li>
-                                <a href="/domain">Domain</a>
-                            </li>
                         </ul>
                     </li>
                     <!-- <li class="dropdown">

@@ -2607,38 +2607,42 @@ h6 {
 
 .preloader {
   position: fixed;
-  background-color: var(--nisoz-black);
-  background-position: center center;
-  background-repeat: no-repeat;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 9991;
-  display: -webkit-box;
+  background-color: #0d0d0d; /* or var(--nisoz-black) if defined */
   display: flex;
-  -webkit-box-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
   align-items: center;
-  text-align: center;
 }
 
 .preloader__image {
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: flipInY;
-  animation-name: flipInY;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
+  width: 80px;
+  height: 80px;
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: 60px auto;
-  width: 100%;
-  height: 100%;
+  animation: bounceFade 1.5s ease-in-out infinite;
 }
+
+@keyframes bounceFade {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-20px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
 
 /* scroll to top */
 .scroll-top {

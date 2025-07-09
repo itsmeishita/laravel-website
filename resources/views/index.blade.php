@@ -854,12 +854,4 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3210.5207862656416!2d82.58781030794823!3d25.415259434427515!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398fdf508f0d0b77%3A0x4350490890b4b83!2sChiku%20Web!5e0!3m2!1sen!2sin!4v1731558356480!5m2!1sen!2sin" class="google-map__one" allowfullscreen></iframe>
         </section>
         <!--Google Map End-->
-
-        
-
-        <section class="copyright text-center">
-            <div class="container wow fadeInUp" data-wow-delay="500ms">
-                <p class="copyright__text">© Copyright <span class="dynamic-year"></span><!-- /.dynamic-year --> by <a href="index.html">Nisoz Template</a></p>
-            </div><!-- /.container -->
-        </section><!-- /.copyright -->
 @endsection
