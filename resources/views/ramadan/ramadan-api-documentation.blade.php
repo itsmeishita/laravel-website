@@ -1,5 +1,5 @@
 @extends('default')
-@section('title','ramadan api documentation')
+@section('title','Ramadan API Documentation')
 
 @section('content')
 

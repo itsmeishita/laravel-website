@@ -1,6 +1,6 @@
 @extends('default')
-@section('title', 'about us')
-
+@section('title', 'About Us')
+@section('description', 'Chikuweb is best leading IT Company in Bhadohi, Chikuweb deliver Website, APPs and software.')
 @section('content')
 
 
