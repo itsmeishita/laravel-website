@@ -63,6 +63,4 @@ Route::get('/privacy-policy', function () {
 Route::get('/terms-conditions', function () {
     return view('terms-conditions');
 });
-Route::get('/domain-details', function () {
-    return view('domain ');
-});
+Route::get('/domain-details', [DomaininfoController::class, 'showDomainInfo']);
