@@ -68,15 +68,13 @@
                         <a href="#">Tools</a>
                         <ul>
                             <li><a href="/domain-details">Domain Details</a></li>
-                            <li>
-                                <a href="/ramadan-2025">Ramadan 2025</a>
-                                <!-- <ul class="sub-menu">
-                                    <li><a href="portfolio-two-col.html">2 Columns</a></li>
-                                    <li><a href="portfolio.html">3 Columns</a></li>
-                                    <li><a href="portfolio-four-col.html">4 Columns</a></li>
-                                </ul> -->
+                            <li class="dropdown">
+                                <a href="#">Ramadan</a>
+                                <ul class="sub-menu">
+                                    <li><a href="/ramadan-2025">Ramadan 2025</a></li>
+                                    <li><a href="/ramadan-api-documentation">Ramadan API documentation</a></li>
+                                </ul>
                             </li>
-                            <li><a href="/ramadan-api-documentation">Ramadan API documentation</a></li>
                         </ul>
                     </li>
                     <!-- <li class="dropdown">

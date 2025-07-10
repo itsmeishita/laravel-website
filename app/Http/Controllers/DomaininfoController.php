@@ -37,6 +37,6 @@ class DomaininfoController extends Controller
         }
 
         // If it's not an AJAX request, return the view
-        return view('domaininfo');
+        return view('domain');
     }
 }
