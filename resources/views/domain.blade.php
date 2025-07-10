@@ -1,5 +1,5 @@
 @extends('default')
-@section('title','terms and conditions')
+@section('title','Domain Details')
 
 @section('content')
 

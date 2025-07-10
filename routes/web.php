@@ -52,10 +52,10 @@ Route::get('/seo-writing', function () {
     return view('seo-writing');
 });
 Route::get('/ramadan-2025', function () {
-    return view('ramadan-2025');
+    return view('ramadan.ramadan-2025');
 });
 Route::get('/ramadan-api-documentation', function () {
-    return view('ramadan-api-documentation');
+    return view('ramadan.ramadan-api-documentation');
 });
 Route::get('/privacy-policy', function () {
     return view('privacy-policy');

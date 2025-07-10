@@ -1,6 +1,6 @@
 
-<?php $__env->startSection('title', 'about us'); ?>
-
+<?php $__env->startSection('title', 'About Us'); ?>
+<?php $__env->startSection('description', 'Chikuweb is best leading IT Company in Bhadohi, Chikuweb deliver Website, APPs and software.'); ?>
 <?php $__env->startSection('content'); ?>
 
 
@@ -14,7 +14,7 @@
     <div class="page-header__shape3 wow slideInRight" data-wow-delay="300ms"></div><!-- /.page-header__shape3 -->
     <div class="container">
         <ul class="page-header__breadcrumb list-unstyled">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><span>About</span></li>
         </ul><!-- /.page-breadcrumb list-unstyled -->
         <h2 class="page-header__title">About</h2><!-- /.page-title -->
@@ -38,12 +38,11 @@
                             <span class="section-title__triangle-right"></span>
                         </div>
                         <h5 class="section-title__tagline">about agency</h5>
-                        <h2 class="section-title__title">get to know about the nisoz agency</h2>
+                        <h2 class="section-title__title">get to know about the CHIKUWEB</h2>
                     </div><!-- section-title -->
-                    <h3 class="about-four__content__heading">Proin est lacus, sagittis lobortis iaculise get.</h3>
+                    <h3 class="about-four__content__heading">CHIKUWEB is a creative-driven agency focused on innovation, strategy, and delivering outstanding digital experiences.</h3>
                     <p class="about-four__content__text">
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                        by injected humour, or randomised words which don't look even slightly believable.
+                        There are many agencies out there, but Nisoz stands apart with a unique blend of creativity, technology, and client-first thinking. Our solutions are not only beautifully crafted but strategically designed to drive real results.
                     </p>
                     <div class="about-one__progress">
                         <h4 class="about-one__progress--title">Website Designing</h4>
@@ -187,7 +186,7 @@
                         <span class="section-title__triangle-left"></span>
                         <span class="section-title__triangle-right"></span>
                     </div>
-                    <h2 class="section-title__title">nisoz Solutions allows your<br> Business to Increase Productivity</h2>
+                    <h2 class="section-title__title">Chikuweb Solutions allows your<br> Business to Increase Productivity</h2>
                 </div><!-- section-title -->
                 <a href="contact.html" class="nisoz-btn">
                     <span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span>
@@ -221,112 +220,28 @@
                         <span class="section-title__triangle-right"></span>
                     </div>
                     <h5 class="section-title__tagline">agency benefits</h5>
-                    <h2 class="section-title__title">why you should choose our nisoz agency</h2>
+                    <h2 class="section-title__title">why you should choose our Chikuweb</h2>
                 </div><!-- section-title -->
                 <div class="choose-two__box">
                     <div class="choose-two__box__icon"><span class="icon-team"></span></div>
-                    <h5 class="choose-two__box__title">the largest agency</h5>
-                    <p class="choose-two__box__text">Aenean placerat ut lacus nec simply free pulvinar. Donec eu leo, ante at, commodo diam.</p>
+                    <h5 class="choose-two__box__title">the Strongest agency</h5>
+                    <p class="choose-two__box__text">A results-driven team delivering creative, technical, and strategic solutions tailored to your business success. </p>
                 </div><!-- icon-box -->
                 <div class="choose-two__box">
                     <div class="choose-two__box__icon"><span class="icon-good-quality"></span></div>
                     <h5 class="choose-two__box__title">high quality products</h5>
-                    <p class="choose-two__box__text">Aenean placerat ut lacus nec simply free pulvinar. Donec eu leo, ante at, commodo diam.</p>
+                    <p class="choose-two__box__text">Crafted with precision and care, our products ensure performance, reliability, and outstanding visual appeal. </p>
                 </div><!-- icon-box -->
             </div>
         </div>
     </div>
 </section>
 <!-- Choose End -->
-<!-- Team Start -->
-<section class="team-one team-one-about">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 wow fadeInUp" data-wow-delay="100ms">
-                <div class="section-title text-center">
-                    <div class="section-title__triangle">
-                        <span class="section-title__triangle-left"></span>
-                        <span class="section-title__triangle-right"></span>
-                    </div>
-                    <h5 class="section-title__tagline">experienced team</h5>
-                    <h2 class="section-title__title">Meet Our People</h2>
-                </div><!-- section-title -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                <div class="team-one__item">
-                    <div class="team-one__item__image">
-                        <img src="assets/images/team/team-1-1.jpg" alt="nisoz">
-                    </div><!-- /.team-image -->
-                    <div class="team-one__item__content">
-                        <h3 class="team-one__item__title">
-                            <a href="team-details.html">Kevin Martin</a>
-                        </h3><!-- /.team-name -->
-                        <span class="team-one__item__designation">Designer</span><!-- /.team-designation -->
-                        <div class="team-one__item__social-wrapper">
-                            <a class="team-one__item__links" href="#"><span class="fas fa-share-alt"></span></a><!-- /.social-more -->
-                            <div class="team-one__item__social">
-                                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-                                <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
-                                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                            </div><!-- /.team-social -->
-                        </div>
-                    </div><!-- /.team-content -->
-                </div><!-- /.team-one -->
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                <div class="team-one__item">
-                    <div class="team-one__item__image">
-                        <img src="assets/images/team/team-1-2.jpg" alt="nisoz">
-                    </div><!-- /.team-image -->
-                    <div class="team-one__item__content">
-                        <h3 class="team-one__item__title">
-                            <a href="team-details.html">aleesha brown</a>
-                        </h3><!-- /.team-name -->
-                        <span class="team-one__item__designation">developer</span><!-- /.team-designation -->
-                        <div class="team-one__item__social-wrapper">
-                            <a class="team-one__item__links" href="#"><span class="fas fa-share-alt"></span></a><!-- /.social-more -->
-                            <div class="team-one__item__social">
-                                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-                                <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
-                                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                            </div><!-- /.team-social -->
-                        </div>
-                    </div><!-- /.team-content -->
-                </div><!-- /.team-one -->
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                <div class="team-one__item">
-                    <div class="team-one__item__image">
-                        <img src="assets/images/team/team-1-3.jpg" alt="nisoz">
-                    </div><!-- /.team-image -->
-                    <div class="team-one__item__content">
-                        <h3 class="team-one__item__title">
-                            <a href="team-details.html">david cooper</a>
-                        </h3><!-- /.team-name -->
-                        <span class="team-one__item__designation">Designer</span><!-- /.team-designation -->
-                        <div class="team-one__item__social-wrapper">
-                            <a class="team-one__item__links" href="#"><span class="fas fa-share-alt"></span></a><!-- /.social-more -->
-                            <div class="team-one__item__social">
-                                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-                                <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
-                                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                            </div><!-- /.team-social -->
-                        </div>
-                    </div><!-- /.team-content -->
-                </div><!-- /.team-one -->
-            </div>
-        </div>
-    </div>
-</section>
+
 <!-- Team Start -->
 <!-- Call To Action Start -->
 <section class="cta-two cta-two-about">
-    <div class="container">
+    <div class="container pt-5">
         <div class="cta-two__info-top wow fadeInUp" data-wow-delay="200ms">
             <div class="cta-two__bg" style="background-image: url(assets/images/shapes/cta-bg-2.png);"></div>
             <div class="section-title">
@@ -335,7 +250,7 @@
             <a href="contact.html" class="cta-two__icon"><span class="icon-long-arrow"></span></a>
         </div>
         <h5 class="cta-two__info-bottom wow fadeInDown" data-wow-delay="300ms">
-            or call us to get free quote: <a href="tel:+9236809850">+92 (3680) 00 - 6800</a>
+            or call us to get free quote: <a href="tel:+919214285988">+91 9214-285-988</a>
         </h5>
     </div>
 </section>
