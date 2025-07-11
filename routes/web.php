@@ -54,6 +54,9 @@ Route::get('/seo-writing', function () {
 Route::get('/ramadan-2025', function () {
     return view('ramadan.ramadan-2025');
 });
+Route::get('/ramadan-form', function () {
+    return view('ramadan.ramadan-form');
+});
 Route::get('/ramadan-api-documentation', function () {
     return view('ramadan.ramadan-api-documentation');
 });
@@ -64,3 +67,4 @@ Route::get('/terms-conditions', function () {
     return view('terms-conditions');
 });
 Route::get('/domain-details', [DomaininfoController::class, 'showDomainInfo']);
+

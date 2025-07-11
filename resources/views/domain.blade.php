@@ -21,7 +21,6 @@
 </section><!-- /.page-header -->
 <!--Google Map Start-->
 
-
 <section class="contact-one contact-page">
     <div class="container wow fadeInUp" data-wow-delay="300ms">
         <div class="section-title text-center">
@@ -31,83 +30,94 @@
             </div>
         </div>
 
-        <div class="subscribe-form">
-            <form  id="domainForm">
+        <div class="main-footer__newsletter" style="border: 1px solid; padding: 10px; border-radius: 10px;">
+            <form id="domainForm" novalidate="novalidate">
+                <h5 class="main-footer__newsletter__text" style="text-align: center;">Enter a domain to get details</h5>
 
-            <div class="form-group">
-                <input type="text" id="domain" name="domain" placeholder="e.g:www.google.com" required>
-            </div>
+                <div class="main-footer__email-input-box" style="margin-top: 10px; text-align: center; ">
+                    <input type="text" id="domain" name="domain" placeholder="e.g: www.google.com" required style="width: 100%; padding: 16.5px; border-radius: 5px; border: 1px solid #ccc;">
 
-            <div class="form-group text-center">
-                <button class="theme-btn btn-style-two btn" type="submit" name="submit-form" style="border:none;"><span class="txt">Get domain Details</span></button>
-            </div>
+                    <div class="form-group text-center" style="margin-top: 20px;">
+                        <button class="nisoz-btn text-center" type="submit" name="submit-form" style="border: none;">
+                            <span class="nisoz-btn__shape"></span>
+                            <span class="nisoz-btn__shape"></span>
+                            <span class="nisoz-btn__shape"></span>
+                            <span class="nisoz-btn__shape"></span>
+                            <span class="nisoz-btn__text">Get Domain Details</span>
+                        </button>
+                    </div>
+                    </div>
+
+                <!-- Result Output Section (inside form, no ID duplication) -->
+                <div class="testimonial-block mb-4" style="margin-top: 30px;">
+                    <div class="inner-box">
+                        <div class="upper-box">
+                            <div class="upper-inner" style="padding-left:0px;">
+                                <h5 align="center" id="domainName">Domain Name</h5>
+                                <div class="designation" style="text-align:center;">Domain Details</div>
+                            </div>
+                            <div class="text" id="domainResult" style="margin-top: 10px;">
+                                <!-- Rendered domain JSON will go here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </form>
         </div>
-
-        <div class="testimonial-block mb-5">
-            <div class="inner-box">
-                <div class="upper-box">
-                    <div class="upper-inner" style="padding-left:0px;">
-                        <h5 align="center" id="domainName">Domain Name</h5>
-                        <div class="designation" style="text-align:center;">Domain Details.</div>
-                    </div>
-                    <div class="text" id="domainResult">
-
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
+
 @endsection
 @section('script')
+
 <script>
-$(document).ready(function () {
-    let urlParams = new URLSearchParams(window.location.search);
-    let domainFromUrl = urlParams.get('domain');
+    $(document).ready(function() {
+        let urlParams = new URLSearchParams(window.location.search);
+        let domainFromUrl = urlParams.get('domain');
 
-    if (domainFromUrl) {
-        $('#domain').val(domainFromUrl);
-        fetchDomainInfo(domainFromUrl);
-    }
+        if (domainFromUrl) {
+            $('#domain').val(domainFromUrl);
+            fetchDomainInfo(domainFromUrl);
+        }
 
-    // Form submission handler
-    $('#domainForm').on('submit', function (e) {
-        e.preventDefault(); // Prevent form submission
+        // Form submission handler
+        $('#domainForm').on('submit', function(e) {
+            e.preventDefault(); // Prevent form submission
 
-        let domain = $('#domain').val();
-        fetchDomainInfo(domain);
-    });
-
-    function renderDomainInfo(data){
-     
-     let resultHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
-     $('#domainResult').html(resultHTML);
-    }
-
-    function fetchDomainInfo(domain) {
-        $.ajax({
-            url: "/domain-details", // Laravel route
-            method: "GET",
-            data: { domain: domain },
-            success: function (response) {
-                if (response.error) {
-                    alert(response.error);
-                } else {
-                    console.log(response);
-                    $('#domainName').text(response.whois.WhoisRecord.domainName)
-                    renderDomainInfo(response.whois.WhoisRecord);
-                    
-                }
-            },
-            error: function () {
-                alert("Failed to fetch domain information. Please try again.");
-            }
+            let domain = $('#domain').val();
+            fetchDomainInfo(domain);
         });
-    }
-    
-});
 
+        function renderDomainInfo(data) {
+
+            let resultHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+            $('#domainResult').html(resultHTML);
+        }
+
+        function fetchDomainInfo(domain) {
+            $.ajax({
+                url: "/domain-details", // Laravel route
+                method: "GET",
+                data: {
+                    domain: domain
+                },
+                success: function(response) {
+                    if (response.error) {
+                        alert(response.error);
+                    } else {
+                        console.log(response);
+                        $('#domainName').text(response.whois.WhoisRecord.domainName)
+                        renderDomainInfo(response.whois.WhoisRecord);
+
+                    }
+                },
+                error: function() {
+                    alert("Failed to fetch domain information. Please try again.");
+                }
+            });
+        }
+
+    });
 </script>
 @endsection
