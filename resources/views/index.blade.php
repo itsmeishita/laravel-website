@@ -130,7 +130,7 @@
                     <div class="about-one__thumb__two nisoz-tilt" data-tilt-options='{ "glare": false, "maxGlare": 0, "maxTilt": 10, "speed": 700, "scale": 1 }'>
                         <img src="{{ asset('assets/images/resources/about-1-2.jpg') }}" alt="nisoz">
                     </div>
-                   
+
                 </div><!-- about thumb end -->
             </div>
             <div class="col-xl-6">
@@ -442,77 +442,47 @@
             "dots":false,
             "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"]
             }'>
+
             <!-- Testimonial Item -->
-            <div class="item">
-                <div class="testimonial-one__item">
-                    <div class="testimonial-one__author">
-                        <img src="{{ asset('assets/images/resources/testimonial-1-1.jpg') }}" alt="nisoz">
-                        <div class="testimonial-one__icon"><span class="icon-quote"></span></div><!-- testimonial-quote-icon -->
-                        <div class="testimonial-one__border">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="290" viewBox="0 0 21 290">
-                                <path class="cls-1" d="M761,4387h1v76.34l-20,24.11,20,26.24V4677h-1V4513.68l-20-26.16,20-24.1V4387Z" transform="translate(-741 -4387)" />
-                            </svg>
-                        </div><!-- svg-border -->
-                    </div><!-- testimonial-author-thumb -->
-                    <div class="testimonial-one__content">
-                        <div class="testimonial-one__ratings">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div><!-- testimonial-ratings -->
-                        <div class="testimonial-one__quote">
-                            Founded in 2018, ChikuWeb has been dedicated to delivering innovative web solutions tailored to meet the unique needs of businesses. Our expertise spans across cutting-edge web development, user-friendly interfaces, and strategic digital marketing to ensure our clients achieve their goals efficiently. From crafting compelling websites to optimizing online presence, we focus on creating results-driven strategies. At ChikuWeb, we believe in building strong partnerships, refining processes, and driving success for businesses of all sizes. Let us help you transform your ideas into impactful realities.
-                        </div><!-- testimonial-quote -->
-                        <div class="testimonial-one__meta">
-                            <h5 class="testimonial-one__title">Salman Zafar Ansari</h5>
-                            <span class="testimonial-one__designation">Founder & CEO</span>
-                        </div><!-- testimonial-meta -->
-                    </div><!-- testimonial-content -->
-                </div>
-            </div>
+
             <!-- Testimonial Item -->
             <!-- Testimonial Item -->
-           
-            <!-- Testimonial Item -->
-            <!-- Testimonial Item -->
-            <div class="item">
+            <!-- <div class="item">
                 <div class="testimonial-one__item">
                     <div class="testimonial-one__author">
                         <img src="{{ asset('assets/images/resources/testimonial-1-3.jpg') }}" alt="nisoz">
-                        <div class="testimonial-one__icon"><span class="icon-quote"></span></div><!-- testimonial-quote-icon -->
-                        <div class="testimonial-one__border">
+                        <div class="testimonial-one__icon"><span class="icon-quote"></span></div>testimonial-quote-icon -->
+            <!-- <div class="testimonial-one__border">
                             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="290" viewBox="0 0 21 290">
                                 <path class="cls-1" d="M761,4387h1v76.34l-20,24.11,20,26.24V4677h-1V4513.68l-20-26.16,20-24.1V4387Z" transform="translate(-741 -4387)" />
                             </svg>
-                        </div><!-- svg-border -->
-                    </div><!-- testimonial-author-thumb -->
-                    <div class="testimonial-one__content">
+                        </div> -->
+            <!-- </div>testimonial-author-thumb -->
+            <!-- <div class="testimonial-one__content">
                         <div class="testimonial-one__ratings">
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
-                        </div><!-- testimonial-ratings -->
-                        <div class="testimonial-one__quote">
+                        </div>
+                         <div class="testimonial-one__quote">
                             This is due to their excellent service, competitive pricing and customer support. It’s through refresing to get such a personal touch.
                             Duis aute irure dolor in reprehenderit esse simply free text available in the market.
-                        </div><!-- testimonial-quote -->
+                        </div>
                         <div class="testimonial-one__meta">
                             <h5 class="testimonial-one__title">Co-Founder & Senior Developer</h5>
                             <span class="testimonial-one__designation">Co-Founder & Senior Developer</span>
-                        </div><!-- testimonial-meta -->
-                    </div><!-- testimonial-content -->
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- Testimonial Item -->
+            </div>-->
+
         </div>
     </div>
 </section>
-<!--Testimonial End-->
-<!-- Choose Start -->
+
+
 <section class="choose-one">
     <div class="choose-one__bg wow slideInLeft" data-wow-delay="200ms">
         <div class="choose-one__bg__one"></div>

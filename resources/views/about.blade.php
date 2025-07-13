@@ -93,11 +93,9 @@
                     </div><!-- testimonial-author-thumb -->
                     <div class="testimonial-one__content">
                         <div class="testimonial-one__ratings">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
+                            <h2>Empowering Businesses with
+                                Seamless Web Solutions
+                                Since 2018</h2>
                         </div><!-- testimonial-ratings -->
                         <div class="testimonial-one__quote">
                             Founded in 2018, ChikuWeb has been dedicated to delivering innovative web solutions tailored to meet the unique needs of businesses. Our expertise spans across cutting-edge web development, user-friendly interfaces, and strategic digital marketing to ensure our clients achieve their goals efficiently. From crafting compelling websites to optimizing online presence, we focus on creating results-driven strategies. At ChikuWeb, we believe in building strong partnerships, refining processes, and driving success for businesses of all sizes. Let us help you transform your ideas into impactful realities.
@@ -123,11 +121,9 @@
                         </div><!-- testimonial-author-thumb -->
                         <div class="testimonial-one__content">
                             <div class="testimonial-one__ratings">
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
+                                <h2>Where Vision Meets
+                                    Innovate. Develop. Elevate.
+                                    Since 2018</h2>
                             </div><!-- testimonial-ratings -->
                             <div class="testimonial-one__quote">
                                 At ChikuWeb, we envision a digital future where growth is not just measured in numbers, but in impact, relationships, and transformation. We are driven by a commitment to co-growth — when our clients succeed, we succeed. Our vision is to become a catalyst for emerging and established businesses alike — empowering them to scale smarter, adapt faster, and lead boldly in a rapidly evolving digital world. Through every pixel we design and every line of code we write, we aim to elevate brands beyond expectations, not just today, but for the long run. We don’t just build websites — we build the digital backbone of tomorrow’s leading businesses.
@@ -137,7 +133,7 @@
                 </div>
                 <!-- Testimonial Item -->
                 <!-- Testimonial Item -->
-               
+
                 <!-- Testimonial Item -->
             </div>
         </div>

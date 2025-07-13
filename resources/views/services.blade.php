@@ -127,7 +127,7 @@
             </div>
         </div>
     </section>
-    <!-- Service Start -->nt-carousel__one__item">
+  
     <img src="assets/images/brand/brand-1-1.png" alt="nisoz">
     </div><!-- /.owl-slide-item-->
     <!-- Service Start -->
