@@ -30,7 +30,6 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="service-two__item">
                         <div class="service-two__thumb">
-                            <img src="assets/images/service/service-1-1.jpg" alt="nisoz" />
                         </div>
                         <div class="service-two__content">
                             <div class="service-two__item__hover" style="background-image: url(assets/images/shapes/service-2-hover-shape.png);"></div>
@@ -49,7 +48,6 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                     <div class="service-two__item">
                         <div class="service-two__thumb">
-                            <img src="assets/images/service/service-1-2.jpg" alt="nisoz" />
                         </div>
                         <div class="service-two__content">
                             <div class="service-two__item__hover" style="background-image: url(assets/images/shapes/service-2-hover-shape.png);"></div>
@@ -69,7 +67,6 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                     <div class="service-two__item">
                         <div class="service-two__thumb">
-                            <img src="assets/images/service/service-1-3.jpg" alt="nisoz" />
                         </div>
                         <div class="service-two__content">
                             <div class="service-two__item__hover" style="background-image: url(assets/images/shapes/service-2-hover-shape.png);"></div>
@@ -90,7 +87,6 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                     <div class="service-two__item">
                         <div class="service-two__thumb">
-                            <img src="assets/images/service/service-1-3.jpg" alt="nisoz" />
                         </div>
                         <div class="service-two__content">
                             <div class="service-two__item__hover" style="background-image: url(assets/images/shapes/service-2-hover-shape.png);"></div>
@@ -111,7 +107,6 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                     <div class="service-two__item">
                         <div class="service-two__thumb">
-                            <img src="assets/images/service/service-1-3.jpg" alt="nisoz" />
                         </div>
                         <div class="service-two__content">
                             <div class="service-two__item__hover" style="background-image: url(assets/images/shapes/service-2-hover-shape.png);"></div>
@@ -132,78 +127,9 @@
             </div>
         </div>
     </section>
-    <!-- Service Start -->
-    <div class="client-carousel @@extraClassName">
-        <div class="container">
-            <h5 class="client-carousel__tilte"><span>1K+ Brands Trust Us</span></h5><!-- section-title -->
-            <div class="client-carousel__one nisoz-owl__carousel owl-theme owl-carousel" data-owl-options='{
-            "items": 5,
-            "margin": 65,
-            "smartSpeed": 700,
-            "loop":true,
-            "autoplay": 6000,
-            "nav":false,
-            "dots":false,
-            "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
-            "responsive":{
-                "0":{
-                    "items":1,
-                    "margin": 0
-                },
-                "360":{
-                    "items":2,
-                    "margin": 0
-                },
-                "575":{
-                    "items":3,
-                    "margin": 30
-                },
-                "768":{
-                    "items":3,
-                    "margin": 40
-                },
-                "992":{
-                    "items": 4,
-                    "margin": 40
-                },
-                "1200":{
-                    "items": 5
-                }
-            }
-            }'>
-                <div class="client-carousel__one__item">
-                    <img src="assets/images/brand/brand-1-1.png" alt="nisoz">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img src="assets/images/brand/brand-1-1.png" alt="nisoz">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img src="assets/images/brand/brand-1-1.png" alt="nisoz">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img src="assets/images/brand/brand-1-1.png" alt="nisoz">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img src="assets/images/brand/brand-1-1.png" alt="nisoz">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img src="assets/images/brand/brand-1-1.png" alt="nisoz">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img src="assets/images/brand/brand-1-1.png" alt="nisoz">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img src="assets/images/brand/brand-1-1.png" alt="nisoz">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img src="assets/images/brand/brand-1-1.png" alt="nisoz">
-                </div><!-- /.owl-slide-item-->
-                <div class="client-carousel__one__item">
-                    <img src="assets/images/brand/brand-1-1.png" alt="nisoz">
-                </div><!-- /.owl-slide-item-->
-            </div><!-- /.thm-owl__slider -->
-        </div><!-- /.container -->
-    </div><!-- /.client-carousel -->
+    <!-- Service Start -->nt-carousel__one__item">
+    <img src="assets/images/brand/brand-1-1.png" alt="nisoz">
+    </div><!-- /.owl-slide-item-->
     <!-- Service Start -->
     <section class="service-three">
         <div class="service-three__bg" style="background-image: url(assets/images/shapes/service-bg-3.jpg);"></div>
@@ -221,8 +147,8 @@
                 </div>
                 <div class="col-md-5">
                     <p class="service-three__text">
-                        Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut
-                        labore et simply free text dolore magna aliqua lonm andhn.
+                        We provide creative, customized digital solutions to help your business grow and stand out online.
+                        From design to development, everything we offer is built with care, quality, and your goals in mind.
                     </p>
                 </div>
             </div>

@@ -42,7 +42,7 @@
                     </div><!-- section-title -->
                     <h3 class="about-four__content__heading">CHIKUWEB is a creative-driven agency focused on innovation, strategy, and delivering outstanding digital experiences.</h3>
                     <p class="about-four__content__text">
-                        There are many agencies out there, but Nisoz stands apart with a unique blend of creativity, technology, and client-first thinking. Our solutions are not only beautifully crafted but strategically designed to drive real results.
+                        We are a full-service creative agency offering innovative digital solutions to help brands grow. From web design and development to branding and digital marketing, we turn ideas into impactful results through smart strategies and execution.
                     </p>
                     <div class="about-one__progress">
                         <h4 class="about-one__progress--title">Website Designing</h4>
@@ -80,6 +80,10 @@
                 <div class="testimonial-one__item">
                     <div class="testimonial-one__author">
                         <img src="assets/images/resources/testimonial-1-1.jpg" alt="nisoz">
+                        <div class="testimonial-one__meta">
+                            <h5 class="testimonial-one__title">Salman Zafar Ansari</h5>
+                            <span class="testimonial-one__designation">Founder & CEO</span>
+                        </div><!-- testimonial-meta -->
                         <div class="testimonial-one__icon"><span class="icon-quote"></span></div><!-- testimonial-quote-icon -->
                         <div class="testimonial-one__border">
                             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="290" viewBox="0 0 21 290">
@@ -96,83 +100,47 @@
                             <span class="fa fa-star"></span>
                         </div><!-- testimonial-ratings -->
                         <div class="testimonial-one__quote">
-                            This is due to their excellent service, competitive pricing and customer support. It’s through refresing to get such a personal touch.
-                            Duis aute irure dolor in reprehenderit esse simply free text available in the market.
-                        </div><!-- testimonial-quote -->
-                        <div class="testimonial-one__meta">
-                            <h5 class="testimonial-one__title">aleesha michale</h5>
-                            <span class="testimonial-one__designation">ceo & co founder</span>
-                        </div><!-- testimonial-meta -->
-                    </div><!-- testimonial-content -->
+                            Founded in 2018, ChikuWeb has been dedicated to delivering innovative web solutions tailored to meet the unique needs of businesses. Our expertise spans across cutting-edge web development, user-friendly interfaces, and strategic digital marketing to ensure our clients achieve their goals efficiently. From crafting compelling websites to optimizing online presence, we focus on creating results-driven strategies. At ChikuWeb, we believe in building strong partnerships, refining processes, and driving success for businesses of all sizes. Let us help you transform your ideas into impactful realities.
+                        </div><!-- testimonial-content -->
+                    </div>
                 </div>
-            </div>
-            <!-- Testimonial Item -->
-            <!-- Testimonial Item -->
-            <div class="item">
-                <div class="testimonial-one__item">
-                    <div class="testimonial-one__author">
-                        <img src="assets/images/resources/testimonial-1-2.jpg" alt="nisoz">
-                        <div class="testimonial-one__icon"><span class="icon-quote"></span></div><!-- testimonial-quote-icon -->
-                        <div class="testimonial-one__border">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="290" viewBox="0 0 21 290">
-                                <path class="cls-1" d="M761,4387h1v76.34l-20,24.11,20,26.24V4677h-1V4513.68l-20-26.16,20-24.1V4387Z" transform="translate(-741 -4387)" />
-                            </svg>
-                        </div><!-- svg-border -->
-                    </div><!-- testimonial-author-thumb -->
-                    <div class="testimonial-one__content">
-                        <div class="testimonial-one__ratings">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div><!-- testimonial-ratings -->
-                        <div class="testimonial-one__quote">
-                            This is due to their excellent service, competitive pricing and customer support. It’s through refresing to get such a personal touch.
-                            Duis aute irure dolor in reprehenderit esse simply free text available in the market.
-                        </div><!-- testimonial-quote -->
-                        <div class="testimonial-one__meta">
-                            <h5 class="testimonial-one__title">aleesha michale</h5>
-                            <span class="testimonial-one__designation">ceo & co founder</span>
-                        </div><!-- testimonial-meta -->
-                    </div><!-- testimonial-content -->
+                <!-- Testimonial Item -->
+                <!-- Testimonial Item -->
+                <div class="item">
+                    <div class="testimonial-one__item">
+                        <div class="testimonial-one__author">
+                            <img src="assets/images/resources/testimonial-1-2.jpg" alt="nisoz">
+                            <div class="testimonial-one__meta">
+                                <h5 class="testimonial-one__title">Ishita Soni</h5>
+                                <span class="testimonial-one__designation">Co-Founder & Senior Developer</span>
+                            </div><!-- testimonial-meta -->
+                            <div class="testimonial-one__icon"><span class="icon-quote"></span></div><!-- testimonial-quote-icon -->
+                            <div class="testimonial-one__border">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="290" viewBox="0 0 21 290">
+                                    <path class="cls-1" d="M761,4387h1v76.34l-20,24.11,20,26.24V4677h-1V4513.68l-20-26.16,20-24.1V4387Z" transform="translate(-741 -4387)" />
+                                </svg>
+                            </div><!-- svg-border -->
+                        </div><!-- testimonial-author-thumb -->
+                        <div class="testimonial-one__content">
+                            <div class="testimonial-one__ratings">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div><!-- testimonial-ratings -->
+                            <div class="testimonial-one__quote">
+                                At ChikuWeb, we envision a digital future where growth is not just measured in numbers, but in impact, relationships, and transformation. We are driven by a commitment to co-growth — when our clients succeed, we succeed. Our vision is to become a catalyst for emerging and established businesses alike — empowering them to scale smarter, adapt faster, and lead boldly in a rapidly evolving digital world. Through every pixel we design and every line of code we write, we aim to elevate brands beyond expectations, not just today, but for the long run. We don’t just build websites — we build the digital backbone of tomorrow’s leading businesses.
+                            </div><!-- testimonial-quote -->
+                        </div><!-- testimonial-content -->
+                    </div>
                 </div>
+                <!-- Testimonial Item -->
+                <!-- Testimonial Item -->
+               
+                <!-- Testimonial Item -->
             </div>
-            <!-- Testimonial Item -->
-            <!-- Testimonial Item -->
-            <div class="item">
-                <div class="testimonial-one__item">
-                    <div class="testimonial-one__author">
-                        <img src="assets/images/resources/testimonial-1-3.jpg" alt="nisoz">
-                        <div class="testimonial-one__icon"><span class="icon-quote"></span></div><!-- testimonial-quote-icon -->
-                        <div class="testimonial-one__border">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="290" viewBox="0 0 21 290">
-                                <path class="cls-1" d="M761,4387h1v76.34l-20,24.11,20,26.24V4677h-1V4513.68l-20-26.16,20-24.1V4387Z" transform="translate(-741 -4387)" />
-                            </svg>
-                        </div><!-- svg-border -->
-                    </div><!-- testimonial-author-thumb -->
-                    <div class="testimonial-one__content">
-                        <div class="testimonial-one__ratings">
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </div><!-- testimonial-ratings -->
-                        <div class="testimonial-one__quote">
-                            This is due to their excellent service, competitive pricing and customer support. It’s through refresing to get such a personal touch.
-                            Duis aute irure dolor in reprehenderit esse simply free text available in the market.
-                        </div><!-- testimonial-quote -->
-                        <div class="testimonial-one__meta">
-                            <h5 class="testimonial-one__title">aleesha michale</h5>
-                            <span class="testimonial-one__designation">ceo & co founder</span>
-                        </div><!-- testimonial-meta -->
-                    </div><!-- testimonial-content -->
-                </div>
-            </div>
-            <!-- Testimonial Item -->
         </div>
-    </div>
 </section>
 <!--Testimonial End-->
 <!-- Call To Action Start -->
