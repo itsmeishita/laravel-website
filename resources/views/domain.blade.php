@@ -22,17 +22,10 @@
 <!--Google Map Start-->
 
 <section class="contact-one contact-page">
-    <div class="container wow fadeInUp" data-wow-delay="300ms">
-        <div class="section-title text-center">
-            <div class="section-title__triangle">
-                <span class="section-title__triangle-left"></span>
-                <span class="section-title__triangle-right"></span>
-            </div>
-        </div>
-
-        <div class="main-footer__newsletter" style="border: 1px solid; padding: 10px; border-radius: 10px;">
+    <div class="p-5 wow fadeInUp" data-wow-delay="300ms">
+        <div class="main-footer__newsletter w-100" style="border: 1px solid; padding: 10px; border-radius: 10px;">
             <form id="domainForm" novalidate="novalidate">
-                <h5 class="main-footer__newsletter__text" style="text-align: center;">Enter a domain to get details</h5>
+                <h5 class="main-footer__newsletter__text" style="text-align: center; color:#333;">Enter a domain to get details</h5>
 
                 <div class="main-footer__email-input-box" style="margin-top: 10px; text-align: center; ">
                     <input type="text" id="domain" name="domain" placeholder="e.g: www.google.com" required style="width: 100%; padding: 16.5px; border-radius: 5px; border: 1px solid #ccc;">
@@ -50,7 +43,7 @@
 
                 <!-- Result Output Section (inside form, no ID duplication) -->
                 <div class="testimonial-block mb-4" style="margin-top: 30px;">
-                    <div class="inner-box">
+                    <div class="inner-box col-md-12">
                         <div class="upper-box">
                             <div class="upper-inner" style="padding-left:0px;">
                                 <h5 align="center" id="domainName">Domain Name</h5>
