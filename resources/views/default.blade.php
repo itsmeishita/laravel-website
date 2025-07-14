@@ -82,23 +82,7 @@
         <!-- /.mobile-nav__content -->
     </div>
     <!-- /.mobile-nav__wrapper -->
-
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
-        <div class="search-popup__content">
-            <form role="search" method="get" class="search-popup__form" action="#">
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="nisoz-btn">
-                    <span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span><span class="nisoz-btn__shape"></span>
-                    <span class="nisoz-btn__text"><i class="icon-magnifying-glass"></i></span>
-                </button>
-            </form>
-        </div>
-        <!-- /.search-popup__content -->
-    </div>
-    <!-- /.search-popup -->
-
+   
     <!-- back-to-top-start -->
     <a href="#" class="scroll-top">
         <svg class="scroll-top__circle" width="100%" height="100%" viewBox="-1 -1 102 102">
